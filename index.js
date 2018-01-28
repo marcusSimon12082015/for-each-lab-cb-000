@@ -1,3 +1,3 @@
-function iterativeLog(element,index, array){
+function iterativeLog(element,index,array){
   console.log(`${index}: ${element}`);
 }
