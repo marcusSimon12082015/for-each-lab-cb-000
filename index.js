@@ -1,3 +1,3 @@
-function iterativeLog(element,index,array){
-  console.log(`${index}: ${element}`);
+function iterativeLog(array){
+  array.forEach((index,element) => console.log(`${index}: ${element}`));
 }
